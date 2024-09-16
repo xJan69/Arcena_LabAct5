@@ -1,58 +1,138 @@
-function _0x3b89(_0x28a820, _0x188ad2) {
-    const _0x57f9d9 = _0x57f9();
-    return _0x3b89 = function(_0x3b892d, _0x36ed7d) {
-        _0x3b892d = _0x3b892d - 0xec;
-        let _0x140a32 = _0x57f9d9[_0x3b892d];
-        return _0x140a32;
+function _0x329d(_0x4b91d2, _0x2a2263) {
+    const _0x228c2d = _0x228c();
+    return _0x329d = function(_0x329d5f, _0x3ddf20) {
+        _0x329d5f = _0x329d5f - 0x1ee;
+        let _0xbdd7f6 = _0x228c2d[_0x329d5f];
+        return _0xbdd7f6;
     }
     ,
-    _0x3b89(_0x28a820, _0x188ad2);
+    _0x329d(_0x4b91d2, _0x2a2263);
 }
-const _0x1e519e = _0x3b89;
-(function(_0x166602, _0x1b4b2b) {
-    const _0x55c385 = _0x3b89
-      , _0x40caf3 = _0x166602();
-    while (!![]) {
-        try {
-            const _0x9c1edc = parseInt(_0x55c385(0xfb)) / 0x1 * (-parseInt(_0x55c385(0xf8)) / 0x2) + parseInt(_0x55c385(0xef)) / 0x3 + -parseInt(_0x55c385(0xf2)) / 0x4 * (-parseInt(_0x55c385(0xf7)) / 0x5) + parseInt(_0x55c385(0xee)) / 0x6 + -parseInt(_0x55c385(0xf9)) / 0x7 + -parseInt(_0x55c385(0xfe)) / 0x8 + parseInt(_0x55c385(0xfd)) / 0x9 * (parseInt(_0x55c385(0x102)) / 0xa);
-            if (_0x9c1edc === _0x1b4b2b)
-                break;
-            else
-                _0x40caf3['push'](_0x40caf3['shift']());
-        } catch (_0x4526c0) {
-            _0x40caf3['push'](_0x40caf3['shift']());
-        }
-    }
-}(_0x57f9, 0x27515),
-$(document)[_0x1e519e(0xf3)](function() {
-    const _0x51efa2 = _0x1e519e;
-    fetch('pokedex.json')[_0x51efa2(0x101)](_0xb52c83=>_0xb52c83['json']())['then'](_0x3a4439=>{
-        const _0x3a0465 = _0x51efa2;
-        let _0x4df9c0 = 0x0;
-        _0x3a4439[_0x3a0465(0x100)](_0x3497b9=>{
-            const _0x2c1a84 = _0x3a0465;
-            let _0x3ea0ec = _0x3497b9['id']
-              , _0x372046 = _0x3497b9[_0x2c1a84(0xec)]['english']
-              , _0x39c27a = _0x3497b9['image'][_0x2c1a84(0xfc)]
-              , _0x60cb12 = _0x3497b9['type']
-              , _0x19e200 = '';
-            _0x60cb12['forEach'](_0x215680=>{
-                const _0x2fd8e2 = _0x2c1a84;
-                _0x19e200 += _0x2fd8e2(0xf4) + _0x215680 + '\x22>' + _0x215680 + _0x2fd8e2(0x103);
-            }
-            ),
-            $(_0x2c1a84(0xed))['append'](_0x2c1a84(0xff) + _0x39c27a + _0x2c1a84(0xf5) + _0x372046 + '\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20type=\x22none\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22pokemon-id\x22>#' + _0x3ea0ec + _0x2c1a84(0xf1) + _0x4df9c0++ + '\x22>' + _0x372046 + _0x2c1a84(0xf0) + _0x19e200 + _0x2c1a84(0xf6)),
-            console[_0x2c1a84(0xfa)](_0x19e200);
-        }
-        );
-    }
-    );
-}));
-function _0x57f9() {
-    const _0x355277 = ['<span\x20class=\x22', '\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20alt=\x22', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>', '100liqzxm', '4kjHnfh', '1547413vFkxws', 'log', '157433HGDMTC', 'hires', '54UXGdPC', '12904tbxWAL', '<div\x20class=\x22card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20src=\x22', 'forEach', 'then', '81890VhoVFm', '</span>', 'name', '.pokemon-container', '1126998elYYBf', '490788MhCoLY', '</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22pokemon-type\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20', '</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22pokemon-name\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22pages/pokemon.html?id=', '59604NsIVhR', 'ready'];
-    _0x57f9 = function() {
-        return _0x355277;
+function _0x228c() {
+    const _0x1a090c = ['479549OncOxS', '.pokemon-page-description', 'html', '.pokemon-page-id', 'stringify', '.pokemon-page-height', 'choices', '#pokemon-page-name', 'toString', 'Sp.\x20Defense', 'search', '<span\x20class=\x22pokemon-ability\x22>', '.defense-val', '.sp-attack\x20div', '7468587diMusb', '.sp-defense\x20div', 'message', 'Sp.\x20Attack', '</span>', 'log', '.defense\x20div', '1873336TjNbVE', '33SFrEnT', 'https://api.openai.com/v1/chat/completions', '2902820MzxmmJ', 'animate', 'Defense', '.pokemon-page-abilities', 'forEach', '\x22\x20alt=\x22', 'description', 'user', 'toLowerCase', 'type', '.hp-val', 'gpt-3.5-turbo', 'base', '.total', 'species', 'weight', 'fun\x20facts\x20about\x20', 'append', '</p>', 'hires', 'substring', 'json', 'POST', 'get', 'ability', '.pokemon-page-weight', '.hp\x20div', '.attack-val', 'if\x20you\x20also\x20found\x20a\x20pokemon\x20name,\x20add\x20it\x20in\x20<a>\x20href\x20must\x20have\x20\x22pokemon.html?id=\x22\x20id=\x20should\x20be\x20pokemon\x20id\x20-\x201', '<img\x20src=\x22', 'application/json', '</div>', '.speed\x20div', '3OHWefi', 'content', '.pokemon-page-image', '<div>', '936796gIkcXt', '102dLMxkR', '1795550fshoIl', 'then', '1vSbbDr', '7160368lUZzet', '.speed-val', '<span\x20class=\x22', '\x22/>', 'profile', 'name', 'english', '\x20if\x20the\x20word\x20has\x20pokemon\x20type\x20on\x20it\x20add\x20<span>\x20with\x20the\x20class\x20of\x20the\x20said\x20pokemon\x20type'];
+    _0x228c = function() {
+        return _0x1a090c;
     }
     ;
-    return _0x57f9();
+    return _0x228c();
 }
+(function(_0x46a9ab, _0x4ecd10) {
+    const _0x1dedc8 = _0x329d
+      , _0x2e2d08 = _0x46a9ab();
+    while (!![]) {
+        try {
+            const _0x243ba2 = parseInt(_0x1dedc8(0x1ee)) / 0x1 * (parseInt(_0x1dedc8(0x20c)) / 0x2) + parseInt(_0x1dedc8(0x230)) / 0x3 * (-parseInt(_0x1dedc8(0x234)) / 0x4) + parseInt(_0x1dedc8(0x20f)) / 0x5 + parseInt(_0x1dedc8(0x235)) / 0x6 * (-parseInt(_0x1dedc8(0x1f7)) / 0x7) + -parseInt(_0x1dedc8(0x1ef)) / 0x8 + parseInt(_0x1dedc8(0x205)) / 0x9 + -parseInt(_0x1dedc8(0x236)) / 0xa * (-parseInt(_0x1dedc8(0x20d)) / 0xb);
+            if (_0x243ba2 === _0x4ecd10)
+                break;
+            else
+                _0x2e2d08['push'](_0x2e2d08['shift']());
+        } catch (_0xefd0f2) {
+            _0x2e2d08['push'](_0x2e2d08['shift']());
+        }
+    }
+}(_0x228c, 0x90804),
+$( () => {
+    const _0x40cc79 = _0x329d
+      , _0x4d554e = window['location'][_0x40cc79(0x201)]
+      , _0x15332b = new URLSearchParams(_0x4d554e)
+      , _0x764a22 = _0x15332b[_0x40cc79(0x226)]('id');
+    console['log'](_0x764a22),
+    fetch('pokedex.json')[_0x40cc79(0x237)](_0x1b0148 => _0x1b0148[_0x40cc79(0x224)]())[_0x40cc79(0x237)](_0x22fe0a => {
+        const _0x332a6e = _0x40cc79;
+        console[_0x332a6e(0x20a)](_0x22fe0a[_0x764a22]);
+        let _0x296ec3 = _0x22fe0a[_0x764a22]
+          , _0x136b25 = (_0x296ec3['id'] + 0x2710)[_0x332a6e(0x1ff)]()[_0x332a6e(0x223)](0x1)
+          , _0x402e83 = _0x296ec3[_0x332a6e(0x1f4)][_0x332a6e(0x1f5)]
+          , _0x4561ab = _0x296ec3['image'][_0x332a6e(0x222)]
+          , _0x4e0867 = _0x296ec3[_0x332a6e(0x215)]
+          , _0x353fc0 = _0x296ec3[_0x332a6e(0x218)]
+          , _0x1db021 = '';
+        _0x353fc0[_0x332a6e(0x213)](_0x79df98 => {
+            const _0x38a057 = _0x332a6e;
+            _0x1db021 += _0x38a057(0x1f1) + _0x79df98[_0x38a057(0x217)]() + '\x22>' + _0x79df98 + _0x38a057(0x209);
+        }
+        );
+        let _0x23caf1 = _0x296ec3[_0x332a6e(0x21d)]
+          , _0x54a0e3 = _0x296ec3[_0x332a6e(0x1f3)]['height']
+          , _0x40e606 = _0x296ec3[_0x332a6e(0x1f3)][_0x332a6e(0x21e)]
+          , _0x42ee6a = _0x296ec3[_0x332a6e(0x1f3)][_0x332a6e(0x227)]
+          , _0x5d2e29 = '';
+        _0x42ee6a[_0x332a6e(0x213)](_0x340146 => {
+            const _0x2f72ab = _0x332a6e;
+            _0x5d2e29 += _0x2f72ab(0x202) + _0x340146[0x0] + '</span>';
+        }
+        ),
+        $(_0x332a6e(0x1fe))[_0x332a6e(0x1f9)](_0x402e83),
+        $(_0x332a6e(0x1f8))[_0x332a6e(0x220)](_0x4e0867),
+        $(_0x332a6e(0x232))[_0x332a6e(0x1f9)](_0x332a6e(0x22c) + _0x4561ab + _0x332a6e(0x214) + _0x402e83 + _0x332a6e(0x1f2)),
+        $(_0x332a6e(0x1fa))[_0x332a6e(0x1f9)](_0x136b25),
+        $('.pokemon-type')['html'](_0x1db021),
+        $('.pokemon-page-species')['html'](_0x23caf1),
+        $(_0x332a6e(0x1fc))[_0x332a6e(0x1f9)](_0x54a0e3),
+        $(_0x332a6e(0x228))[_0x332a6e(0x1f9)](_0x40e606),
+        $(_0x332a6e(0x212))[_0x332a6e(0x1f9)](_0x5d2e29);
+        let _0x4d6e8d = _0x296ec3[_0x332a6e(0x21b)]['HP']
+          , _0x28e089 = _0x296ec3[_0x332a6e(0x21b)]['Attack']
+          , _0x4dfc14 = _0x296ec3[_0x332a6e(0x21b)][_0x332a6e(0x211)]
+          , _0x488b76 = _0x296ec3[_0x332a6e(0x21b)][_0x332a6e(0x208)]
+          , _0x7cd7f6 = _0x296ec3['base'][_0x332a6e(0x200)]
+          , _0x231136 = _0x296ec3[_0x332a6e(0x21b)]['Speed']
+          , _0x134b2d = _0x4d6e8d / 0xc8 * 0x64
+          , _0x49d552 = _0x28e089 / 0xc8 * 0x64
+          , _0x155f06 = _0x4dfc14 / 0xc8 * 0x64
+          , _0x49c827 = _0x488b76 / 0xc8 * 0x64
+          , _0x482a13 = _0x7cd7f6 / 0xc8 * 0x64
+          , _0xfbe2af = _0x231136 / 0xc8 * 0x64
+          , _0x5507df = _0x4d6e8d + _0x28e089 + _0x4dfc14 + _0x488b76 + _0x7cd7f6 + _0x231136;
+        $(_0x332a6e(0x219))['html'](_0x332a6e(0x233) + _0x4d6e8d + _0x332a6e(0x22e)),
+        $(_0x332a6e(0x22a))[_0x332a6e(0x1f9)](_0x332a6e(0x233) + _0x28e089 + _0x332a6e(0x22e)),
+        $(_0x332a6e(0x203))[_0x332a6e(0x1f9)](_0x332a6e(0x233) + _0x4dfc14 + _0x332a6e(0x22e)),
+        $('.sp-attack-val')[_0x332a6e(0x1f9)]('<div>' + _0x488b76 + _0x332a6e(0x22e)),
+        $('.sp-defense-val')[_0x332a6e(0x1f9)](_0x332a6e(0x233) + _0x7cd7f6 + _0x332a6e(0x22e)),
+        $(_0x332a6e(0x1f0))[_0x332a6e(0x1f9)](_0x332a6e(0x233) + _0x231136 + _0x332a6e(0x22e)),
+        $(_0x332a6e(0x21c))[_0x332a6e(0x1f9)](_0x332a6e(0x233) + _0x5507df + '</div>'),
+        $(_0x332a6e(0x229))['animate']({
+            'width': 0xc8 / 0x64 * _0x134b2d
+        }, 0x3e8),
+        $('.attack\x20div')[_0x332a6e(0x210)]({
+            'width': 0xc8 / 0x64 * _0x49d552
+        }, 0x3e8),
+        $(_0x332a6e(0x20b))[_0x332a6e(0x210)]({
+            'width': 0xc8 / 0x64 * _0x155f06
+        }, 0x3e8),
+        $(_0x332a6e(0x204))[_0x332a6e(0x210)]({
+            'width': 0xc8 / 0x64 * _0x49c827
+        }, 0x3e8),
+        $(_0x332a6e(0x206))[_0x332a6e(0x210)]({
+            'width': 0xc8 / 0x64 * _0x482a13
+        }, 0x3e8),
+        $(_0x332a6e(0x22f))[_0x332a6e(0x210)]({
+            'width': 0xc8 / 0x64 * _0xfbe2af
+        }, 0x3e8);
+    }
+    );
+    async function _0x40bcfe(_0x54face, _0x4bed6a) {
+        const _0x142bc7 = _0x40cc79;
+        let _0x19a2ae = _0x142bc7(0x21f) + _0x4bed6a + '\x20in\x20pokemon,\x20I\x20already\x20provided\x20the\x20stats,\x20description\x20and\x20profile.\x20I\x20only\x20need\x20fun\x20facts\x20in\x201\x20paragraph';
+        _0x19a2ae += _0x142bc7(0x1f6),
+        _0x19a2ae += _0x142bc7(0x22b);
+        const _0xd4bcaa = await fetch(_0x142bc7(0x20e), {
+            'method': _0x142bc7(0x225),
+            'headers': {
+                'Content-Type': _0x142bc7(0x22d),
+                'Authorization': 'Bearer\x20' + ky
+            },
+            'body': JSON[_0x142bc7(0x1fb)]({
+                'model': _0x142bc7(0x21a),
+                'messages': [{
+                    'role': _0x142bc7(0x216),
+                    'content': _0x19a2ae
+                }],
+                'temperature': 0.7
+            })
+        })
+          , _0x128a7b = await _0xd4bcaa[_0x142bc7(0x224)]();
+        $(_0x54face)[_0x142bc7(0x220)]('<p>' + _0x128a7b[_0x142bc7(0x1fd)][0x0][_0x142bc7(0x207)][_0x142bc7(0x231)] + _0x142bc7(0x221));
+    }
+}
+));

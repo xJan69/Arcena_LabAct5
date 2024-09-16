@@ -13,24 +13,25 @@ $(document).ready(function(){
                 
                 types.forEach(type =>{
                     typesHtml += `<span class="${type}">${type}</span>`;
-                    // console.log(name);
                 });
                 
                 $('.pokemon-container').append(
                     `<div class="card">
-                        <a href="pages/pokemon.html?=id=${linkId++}">
+                        <a href="pokemon.html?id=${linkId}">
                             <img src="${image}" alt="${name}">
                         </a>
                         <ul type="none">
                         <li class="pokemon-id">#${id}</li>
                         <li class="pokemon-name">
-                            <a href="pages/pokemon.html?=id=${linkId++}">${name}</a>
+                            <a href="pokemon.html?id=${linkId++}">${name}</a>
                         </li>
-                        <li class="pokemon-type">${typesHtml}</li>
+                        <li class="pokemon-type">
+                            ${typesHtml}
+                        </li>
                         </ul>
                     </div>`
                 );
             });
-            console.log(id);
+            console.log(typesHtml);
         });
 });
