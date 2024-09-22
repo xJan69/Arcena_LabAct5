@@ -12,7 +12,7 @@ $(document).ready(function(){
                 let typesHtml = "";
                 
                 types.forEach(type =>{
-                    typesHtml += `<span class="${type}">${type}</span>`;
+                    typesHtml += `<span class="${type}"> ${type}</span>`;
                 });
                 
                 $('.pokemon-container').append(

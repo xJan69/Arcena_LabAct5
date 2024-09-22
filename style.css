@@ -12,6 +12,37 @@ body h1{
     color:#fff;
 }
 
+.search{
+    --padding: 24px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background: transparent;
+    width: 600px;
+}
+
+.search-input{
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin-left: var(--padding);
+  outline: none;
+  border: none;
+  background: darkslategray;
+  flex: 1;
+}
+
+.search:focus-within{
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.75);
+}
+
+.search-input::placeholder,
+search.icon{
+  color: rgba(255, 255, 255, 0.5)
+}
+
 .pokemon-container{
     border: 1px solid transparent;
     display: flex;
