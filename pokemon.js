@@ -7,8 +7,6 @@ $(()=> {
     fetch("pokedex.json")
     .then((rawData) => rawData.json())
     .then(pokedex => {
-        
-        //console.log(pokedex);
         //Declaration of Properties
         let pokemon = pokedex[id];
         let pokemonId = (pokemon["id"] + 10000).toString().substring(1);
@@ -28,6 +26,7 @@ $(()=> {
         abilities.forEach((ability) => {
             abilitiesHtml += `<span class="pokemon-page-abilities"> ${ability[0]}</span>`;
         });
+
         //Display
         $(".pokemon-page-name").html(name);
         $(".pokemon-page-image").html(`<img src="${image}" alt="${name}"/>`);
@@ -64,7 +63,7 @@ $(()=> {
         $(".speed-val").html(`<div>${speed}</div>`);
         $(".total").html(`<div>${total}</div>`);
 
-        $(".hp div").animate({ width: (200 / 100) * speed_per }, 1000);
+        $(".hp div").animate({ width: (200 / 100) * hp_per }, 1000);
         $(".attack div").animate({ width: (200 / 100) * attack_per }, 1000);
         $(".defense div").animate({ width: (200 / 100) * defense_per }, 1000);
         $(".sp-attack div").animate({ width: (200 / 100) * sp_attack_per }, 1000);
