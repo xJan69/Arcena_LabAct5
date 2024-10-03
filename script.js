@@ -5,7 +5,7 @@ $(document).ready(function(){
             let linkId = 0;
             pokedex.forEach(pokemon => {
                 //Declaration of Properties
-                let id = pokemon["id"];
+                let id = (pokemon["id"] + 10000).toString().substring(1);
                 let name = pokemon["name"]["english"];//["japanese"];
                 let image = pokemon["image"]["hires"];
                 let types = pokemon["type"];
