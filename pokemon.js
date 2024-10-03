@@ -16,7 +16,7 @@ $(()=> {
         let types = pokemon["type"];
         let typesHtml = "";
         types.forEach((type) => {
-            typesHtml += `<span class="${type.toLowerCase()}">${type}</span>`;
+            typesHtml += `<span class="${type.toLowerCase()}"> ${type}</span>`;
         });
         let species = pokemon["species"];
         let height = pokemon["profile"]["height"];

@@ -6,7 +6,7 @@ $(document).ready(function(){
             pokedex.forEach(pokemon => {
                 //Declaration of Properties
                 let id = (pokemon["id"] + 10000).toString().substring(1);
-                let name = pokemon["name"]["english"];//["japanese"];
+                let name = pokemon["name"]["english"];
                 let image = pokemon["image"]["hires"];
                 let types = pokemon["type"];
                 let typesHtml = "";
@@ -32,6 +32,6 @@ $(document).ready(function(){
                     </div>`
                 );
             });
-            console.log(typesHtml);
+            console.log(pokemon);
         });
 });
